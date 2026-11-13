@@ -1,0 +1,15 @@
+{
+  "name": "budget-trail",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Follow your monthly income and expenses, one clear transaction at a time.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check src/app.js && node --check src/model.js && node --check src/ui.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
